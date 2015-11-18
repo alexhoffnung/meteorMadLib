@@ -1,4 +1,9 @@
 .mad-lib-fields {
 	border:1pt black solid;
 	padding: 15px;
+	margin: 20px;
+}
+
+.mad-lib-console {
+	padding: 25px 0;
 }
