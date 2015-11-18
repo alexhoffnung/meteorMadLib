@@ -10,6 +10,8 @@ Meteor.startup (function(){
 		var madLib = exclamation + "! he said, as he " + adverb + " jumped onto his " + noun + " and " + verb + " into the sunset.";
 
 		console.log(madLib);
+		$("#instructions").hide();
+		$("#instructions").text(madLib).fadeIn("slow").css("color","#0000ff");
 	});
 
 
